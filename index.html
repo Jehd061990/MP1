@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destries</title>
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Kavoon&family=Raleway:wght@300;700&display=swap"
+        rel="stylesheet">
+
+    <!-- external style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ----------------- Hero Section----------- -->
+    <div id="hero">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg position-fixed container-fluid">
+            <div class="container">
+                <a href="#hero" class="navbar-brand pb-4">
+                    <img src="img/destries-logo.png" alt="destries logo" class="img-fluid">
+                    <h3>Destries</h3>
+                </a>
+        
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#site_navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="site_navbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex justify-content-center">
+                            <a href="#hero" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+        
+                        <li class="nav-item d-flex justify-content-center"">
+                                    <a href="#exhibit" class="nav-link">
+                            Products
+                            </a>
+                        </li>
+        
+                        <li class="nav-item d-flex justify-content-center"">
+                                    <a href="#about" class="nav-link">
+                            About
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center"">
+                                    <a href="#contact" class="nav-link">
+                            Contact
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center"">
+                                    <a href=" #" class="nav-link">
+                            Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+        </nav>
+        
+        
+        <!-- Banner -->
+        <div class="container">
+            <div class="text-center banner-intro">
+                <div class="banner">
+                    Indulge Your Sweet Tooth!
+                </div>
+                <div class="brand-wrap-main mt-0">
+                    <div class="brand-wrapper-first">
+                        <div class="des">
+                            Des
+                        </div>
+                        <div class="serts">
+                            serts
+                        </div>
+                    </div>
+                
+                    <div class="and">
+                        &
+                    </div>
+                
+                    <div class="brand-wrapper-second">
+                        <div class="pas">
+                            Pas
+                        </div>
+                        <div class="tries">
+                            tries
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Carousel -->
+        <div class="food-carousel">
+            <!-- Call to Action Button -->
+            <div class="order-now">
+                <a href="#" class="btn bg-primary shadow">Order Now</a>
+            </div>
+            <div id="food-slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#food-slider" data-bs-slide-to="0" class="active">
+                    </button>
+            
+                    <button data-bs-target="#food-slider" data-bs-slide-to="1">
+                    </button>
+            
+                    <button data-bs-target="#food-slider" data-bs-slide-to="2">
+                    </button>
+                </div>
+            
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/landscapeGroupOfCakes.jpg"
+                            alt="couple taking selfie" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Find your soulmate!</h1>
+                            <p>Maybe Destires foods are your soulmate</p>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <img src="img/germanCake.jpg"
+                            alt="germacake picture" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Take a picture!</h1>
+                            <p>Remember all your moment with every food you eat</p>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <img src="https://www.lovepanky.com/wp-content/uploads/2020/09/dating-a-married-couple.jpg"
+                            alt="couple taking selfie" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Your Family</h1>
+                            <p>Enjoy the food with you family</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#food-slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+            
+                <button class="carousel-control-next" type="button" data-bs-target="#food-slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------- Exhibit Section----------- -->
+    <div class="exhibit" id="exhibit">
+
+        <div class="container">
+            <div class="row padding-css">
+                <div class="col-lg-6 product-slider">
+                    <div class="wrapper">
+                        <div class="slider">
+                            <img src="img/lumpia.jpg"
+                                alt="picture of lumpia">
+                            <img src="img/brownies.jpg" alt="picture of brownies">
+                            <img src="img/cake.jpg" alt="picture of cake">
+                            <img src="img/cookies.jpg" alt="picture of cookies">
+                        </div>
+                        <div class="slider">
+                            <img src="img/macaroni.jpg" alt="picture of macaroni">
+                            <img src="img/tapioca.jpg" alt="picture of tapioca">
+                            <img src="img/maja.jpg" alt="picture maja">
+                            <img src="img/spaghetti.jpg" alt="piture of spaghetti">
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="wrapperCenter">
+                        <div class="sliderdown">
+                            <img src="img/macaroni.jpg" alt="picture of macaroni">
+                            <img src="img/spaghetti.jpg" alt="piture of spaghetti">
+                            <img src="img/cookies.jpg" alt="picture of cookies">
+                            <img src="img/lumpia.jpg" alt="lumpia picture">
+                        </div>
+                        <div class="sliderdown">
+                            <img src="img/cake.jpg" alt="picture of cake">
+                            <img src="img/maja.jpg" alt="picture maja">
+                            <img src="img/tapioca.jpg" alt="picture of tapioca">
+                            <img src="img/brownies.jpg" alt="picture of brownies">
+                        </div>
+                    </div>
+                    
+                    <div class="wrapper">
+                        <div class="slider">
+                            <img src="img/cake.jpg" alt="picture of cake">
+                            <img src="img/macaroni.jpg" alt="picture of macaroni">
+                            <img src="img/lumpia.jpg" alt="lumpia picture">
+                            <img src="img/spaghetti.jpg" alt="piture of spaghetti">
+                        </div>
+                        <div class="slider">
+                            <img src="img/cookies.jpg" alt="picture of cookies">
+                            <img src="img/maja.jpg" alt="picture maja">
+                            <img src="img/brownies.jpg" alt="picture of brownies">
+                            <img src="img/tapioca.jpg" alt="picture of tapioca">
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pt-3 d-none d-md-block">
+                    <div class="exhibit-words">
+                        The world of desserts is rich and diverse, encompassing a vast array of sweet dishes, pastries, confections, and frozen
+                        treats. Ingredients such as sugar, flour, butter, eggs, chocolate, fruits, and various flavorings are commonly used to
+                        create the sweet symphony that defines the dessert experience. The art of dessert-making involves a combination of
+                        culinary skills, creativity, and a deep understanding of the science behind baking and confectionery.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    
+    <!-- ----------------- Testimonial Section----------- -->
+    <div class="testimonial" id="testimonial">
+        <div class="container testimonial-pad">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="testimonial-intro lh-1 pb-3">
+                        Our customers revel in the delight of their experiences with our exceptional food and services.
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="testimonial-container">
+                        <div class="pole"></div>
+                        <div class="testimonial-cards">
+                            <div class="testimonial-first d-flex justify-content-end">
+                                <p>The food exceeded all expectations! Fresh, flavorful, and beautifully crafted.</p>
+                                <img src="img/testimonial1.png" alt="first person testimonial">
+                            </div>
+                            <div class="testimonial-second">
+                                <img src="img/testimonial2.png" alt="second person testimonial">
+                                <p>Exceptional! The diverse range of flavors in every dish was a delightful surprise.</p>
+                            </div>
+                            <div class="testimonial-third d-flex justify-content-end">
+                                <p>Absolutely delighted with the exquisite flavors and impeccable presentation!</p>
+                                <img src="img/testimonial3.png" alt="third person testimonial">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- About Section----------- -->
+    <div id="about">
+        <div class="container-fluid about-padding">
+            <div class="text-center pb-2">
+                <h1>Baking Dreams, Creating Memories</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>
+                        Destries is more than just a refreshment food eatery; it's a dream brought to life by a married couple on a mission to
+                        sprinkle joy into people's lives. In the midst of life's challenges, this duo embarked on the journey of crafting a
+                        small treat haven, a place where happiness blooms behind every bite.
+                        
+                        Having weathered their fair share of life's storms, the couple intimately understands the struggles of those navigating
+                        busy lives. It's this empathy that fuels their commitment to providing a sanctuary—a space where customers can escape,
+                        unwind, and savor both delectable cuisine and a comforting ambiance.
+                        
+                        Our vision extends beyond the physical walls of our eatery; we want every customer to feel the warm embrace of Destries,
+                        even from the comfort of their own homes. That's why we've meticulously curated this online platform, allowing you to
+                        order your favorite treats with a click and have them delivered straight to your doorstep.
+                        
+                        At Destries, it's not just about the food; it's about creating an experience that lingers—a moment of respite, a bite of
+                        joy, and a departure with a refreshed spirit. Welcome to Destries, where every order is a taste of happiness delivered
+                        right to you.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 d-none d-sm-block">
+                    <img src="img/about-img.png" alt="Detries Dining Interior Design" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- About Section----------- -->
+    <div id="contact">
+        <div class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7918.88712059962!2d125.59938491893662!3d7.074461859670419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96ddfc3d3295d%3A0xd245ee07cf057772!2sGaisano%20Market!5e0!3m2!1sen!2sph!4v1701137820540!5m2!1sen!2sph"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+      
+        <div class="row-css">
+            <div class="left">
+                <div class="phone-container">
+                    <img src="img/phone-icon.svg" alt="phone icon">
+                    <span>(082)222-1234</span>
+                </div>
+                <div class="smartphone-container">
+                    <img src="img/smartphone-icon.svg" alt="smartphone-icon" class="smartphone-icon">
+                    <span class="ms-2">+639999999999</span>
+                </div>
+                <div class="email-container">
+                    <img src="img/email-icon.svg" alt="email-icon">
+                    <span class="ms-1">destries_eatery@gmail.com</span>
+                </div>
+                <div>
+                    <span><img src="img/fb-icon.svg" alt="facebook icon"></span>
+                    <span><img src="img/messenger-icon.svg" alt="messenger-icon"></span>
+                    <span><img src="img/twitter-icon.svg" alt="twitter-icon"></span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="message-me">
+                    <form action="">
+                        <div class="mb-3">
+                            <!-- <label for="messageInput" class="form-label">Email address</label> -->
+                            <textarea name="" id="messageInput" cols="30" rows="10" class="form-control" placeholder="Any Suggestions or Comments?"></textarea>
+                            
+                        </div>
+                        <div class="mb-3">
+                            <!-- <label for="emailInput" class="form-label">Password</label> -->
+                            <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                        </div>
+                        <div class="btn-css">
+                            <button type="submit" class="btn btn-primary ms-auto">Send</button>
+                        </div>
+                    </form>
+                </div>
+        
+            </div>
+            
+        </div>
+        <footer>
+            <div>
+                <p>Copyright <span><img src="img/copyright-icon.svg" alt="copyright-icon"></span> Destries Eatery Alright
+                    Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
